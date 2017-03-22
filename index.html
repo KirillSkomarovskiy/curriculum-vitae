@@ -11,276 +11,535 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- minified font awesome CSS -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- minified flag CSS -->
+    <link rel="stylesheet" href="css/flags.min.css">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 
 </head>
 <body>
 <main class="container well">
-    <h1 class="text-center text-primary">Скомаровский Кирилл</h1>
-    <section class="panel panel-primary">
-        <div class="panel-heading">
-            <h2 class="panel-title text-uppercase">Контакты</h2>
-        </div>
-        <div class="panel-body row">
-            <div class="col-sm-3">
-                <div class="row">
-                    <div class="col-lg-7 col-md-8 col-sm-10 col-xs-6 col-sm-offset-2 col-xs-offset-3">
-                        <img src="image/IMG_3531.jpg"
-                             class="img-responsive img-thumbnail"
-                             alt="photo">
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-9">
-                <div class="row">
-                    <dl class="dl-horizontal lead col-xs-12">
-                        <dt>Phone:</dt>
-                        <dd>+380661197157</dd>
-                        <dt>Email:</dt>
-                        <dd>skomarovskiykirill@gmail.com</dd>
-                        <dt>Skype:</dt>
-                        <dd>live:skomarovkiykirill</dd>
-                    </dl>
-                    <p class="text-center">
-                        <a href="http://www.linkedin.com/in/kirill-skomarovskiy"
-                           class="col-sm-2 col-xs-3 col-md-offset-1 col-sm-offset-2 col-xs-offset-3"
-                           target="_blank">
-                            <i class="fa fa-linkedin-square fa-3x"></i>
-                        </a>
-                        <a href="http://www.github.com/KirillSkomarovskiy"
-                           class="col-sm-2 col-xs-3"
-                           target="_blank">
-                            <i class="fa fa-github-square fa-3x"></i>
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>                      <!--Contact-->
-    <section class="panel panel-primary">
-        <div class="panel-heading">
-            <h2 class="panel-title text-uppercase">Цель</h2>
-        </div>
-        <div class="panel-body text-justify">
-            Начать карьеру frontend developer. Дальнейшее развитие своих профессиональных навыков.
-        </div>
-    </section>                      <!--Objective-->
-    <section class="panel panel-primary">
-        <div class="panel-heading">
-            <h2 class="panel-title text-uppercase">Резюме</h2>
-        </div>
-        <div class="panel-body text-justify">
-            Опыт разработки ПО для инженерных расчетов на C++. Имею знания в Java. Последние пол года изучаю frontend
-            разработку.
-        </div>
-    </section>                      <!--Summary-->
-    <section class="panel panel-primary">
-        <div class="panel-heading">
-            <h2 class="panel-title text-uppercase">Навыки</h2>
-        </div>
-        <div class="panel-body">
-            <span class="label label-danger">HTML/CSS</span>
-            <span class="label label-default">Git</span>
-            <span class="label label-warning">JavaScript</span>
-            <span class="label label-warning">TypeScript</span>
-            <span class="label label-warning">jQuery</span>
-            <span class="label label-success">Bootstrap</span>
-            <span class="label label-info">Gulp</span>
-            <span class="label label-primary">LESS</span>
-            <span class="label label-primary">SASS</span>
-            <span class="label label-success">AngularJS 2</span>
-            <span class="label label-warning">NodeJS</span>
-        </div>
-    </section>                      <!--Skills-->
-    <section class="panel panel-primary">
-        <div class="panel-heading">
-            <h2 class="panel-title text-uppercase">Опыт</h2>
-        </div>
-        <div class="panel-body panel-group">
-            <div class="panel panel-default">
+    <!-- Nav tabs -->
+    <ul class="nav nav-pills" role="tablist">
+        <li role="presentation" class="pull-right">
+            <a href="#ru"
+               aria-controls="ru"
+               role="tab"
+               data-toggle="tab"
+               class="flag flag-ru"></a>
+        </li>
+        <li role="presentation" class="active pull-right">
+            <a href="#en"
+               aria-controls="en"
+               role="tab"
+               data-toggle="tab"
+               class="flag flag-gb"></a>
+        </li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane" id="ru">
+            <h1 class="text-center text-primary">Скомаровский Кирилл</h1>
+            <section class="panel panel-primary">
                 <div class="panel-heading">
-                    <div class="panel-title row">
-                        <div class="col-md-3 col-sm-4">дек. 2016 г. – янв. 2017 г.</div>                                <!--years-->
-                        <div class="col-md-9 col-sm-8">
-                            <div class="row">
-                                <b class="col-xs-12 text-justify text-primary">2muchcoffee</b>                          <!--company-->
-                                <span class="col-xs-12 text-nowrap">г. Запорожье</span>                                 <!--location-->
+                    <h2 class="panel-title text-uppercase">Контакты</h2>
+                </div>
+                <div class="panel-body row">
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-8 col-sm-10 col-xs-6 col-sm-offset-2 col-xs-offset-3">
+                                <img src="image/IMG_3531.jpg"
+                                     class="img-responsive img-thumbnail"
+                                     alt="photo">
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="panel-body row">
-                    <div  class="col-md-9 col-sm-8 col-md-offset-3 col-sm-offset-4">
+                    <div class="col-sm-9">
                         <div class="row">
-                            <div class="col-md-2 col-sm-3 col-xs-12 text-primary">Должность:</div>
-                            <div class="col-md-10 col-sm-9 col-xs-12">стажер</div>                                      <!--position-->
-                            <div class="col-md-2 col-sm-3 col-xs-12 text-primary">Инструменты:</div>
-                            <div class="col-md-10 col-sm-9 col-xs-12">
-                                <span class="label label-default">MacOS</span>                                          <!--tool-->
+                            <dl class="dl-horizontal lead col-xs-12">
+                                <dt>Phone:</dt>
+                                <dd>+380661197157</dd>
+                                <dt>Email:</dt>
+                                <dd>skomarovskiykirill@gmail.com</dd>
+                                <dt>Skype:</dt>
+                                <dd>live:skomarovkiykirill</dd>
+                            </dl>
+                            <p class="text-center">
+                                <a href="http://www.linkedin.com/in/kirill-skomarovskiy"
+                                   class="col-sm-2 col-xs-3 col-md-offset-1 col-sm-offset-2 col-xs-offset-3"
+                                   target="_blank">
+                                    <i class="fa fa-linkedin-square fa-3x"></i>
+                                </a>
+                                <a href="http://www.github.com/KirillSkomarovskiy"
+                                   class="col-sm-2 col-xs-3"
+                                   target="_blank">
+                                    <i class="fa fa-github-square fa-3x"></i>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>                      <!--Contact-->
+            <section class="panel panel-primary">
+                <div class="panel-heading">
+                    <h2 class="panel-title text-uppercase">Цель</h2>
+                </div>
+                <div class="panel-body text-justify">
+                    Начать карьеру frontend developer. Дальнейшее развитие своих профессиональных навыков.
+                </div>
+            </section>                      <!--Objective-->
+            <section class="panel panel-primary">
+                <div class="panel-heading">
+                    <h2 class="panel-title text-uppercase">Резюме</h2>
+                </div>
+                <div class="panel-body text-justify">
+                    Я разработчик программного обеспечения с разнообразным опытом, от разработки программного
+                    обеспечения для инженерных расчетов с использованием C ++ до frontend разработки. Имею базовые
+                    знания Java. Хорошо организованная, быстро учусь, целеустремленных.
+                </div>
+            </section>                      <!--Summary-->
+            <section class="panel panel-primary">
+                <div class="panel-heading">
+                    <h2 class="panel-title text-uppercase">НАВЫКИ</h2>
+                </div>
+                <div class="panel-body">
+                    <span class="label label-danger">HTML/CSS</span>
+                    <span class="label label-default">Git</span>
+                    <span class="label label-warning">JavaScript</span>
+                    <span class="label label-warning">TypeScript</span>
+                    <span class="label label-warning">jQuery</span>
+                    <span class="label label-success">Bootstrap</span>
+                    <span class="label label-info">Gulp</span>
+                    <span class="label label-primary">LESS</span>
+                    <span class="label label-primary">SASS</span>
+                    <span class="label label-success">AngularJS 2</span>
+                    <span class="label label-warning">NodeJS</span>
+                </div>
+            </section>                      <!--Skills-->
+            <section class="panel panel-primary">
+                <div class="panel-heading">
+                    <h2 class="panel-title text-uppercase">ОПЫТ</h2>
+                </div>
+                <div class="panel-body panel-group">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title row">
+                                <div class="col-md-3 col-sm-4">Дек. 2016 – Янв. 2017</div>
+                                <div class="col-md-9 col-sm-8">
+                                    <div class="row">
+                                        <b class="col-xs-12 text-justify text-primary">2muchcoffee</b>
+                                        <span class="col-xs-12 text-nowrap">г. Запорожье</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body row">
+                            <div class="col-md-3 col-sm-4 text-primary">Должность:</div>
+                            <div class="col-md-9 col-sm-8 col-xs-11 col-sm-offset-0 col-xs-offset-1">Стажер</div>
+                            <div class="col-md-3 col-sm-4 text-primary">Обязанности:</div>
+                            <div class="col-md-9 col-sm-8 col-xs-11 col-sm-offset-0 col-xs-offset-1">
+                                Изучение AngularJS 2. Разработка приложений с использованием AngularJS 2.
+                            </div>
+                            <div class="col-md-9 col-md-3 col-sm-4 text-primary">Инструменты:</div>
+                            <div class="col-md-9 col-sm-8 col-xs-11 col-sm-offset-0 col-xs-offset-1">
                                 <span class="label label-default">phpstorm</span>                                       <!--tool-->
                                 <span class="label label-default">angularJS 2</span>                                    <!--tool-->
                             </div>
                         </div>
-                    </div>
+                    </div>                  <!--#1-->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title row">
+                                <div class="col-md-3 col-sm-4">Авг. 2015 – Авг. 2016</div>
+                                <div class="col-md-9 col-sm-8">
+                                    <div class="row">
+                                        <b class="col-xs-12 text-justify text-primary">ООО "Инженерный центр AIRBUS Россия"</b>
+                                        <span class="col-xs-12 text-nowrap">г. Москва</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body row">
+                            <div class="col-md-3 col-sm-4 text-primary">Должность:</div>
+                            <div class="col-md-9 col-sm-8 col-xs-11 col-sm-offset-0 col-xs-offset-1">Инженер-конструктор</div>
+                            <div class="col-md-3 col-sm-4 text-primary">Обязанности:</div>
+                            <div class="col-md-9 col-sm-8 col-xs-11 col-sm-offset-0 col-xs-offset-1">
+                                Проектирование и разработка элементов конструкции самолета.
+                            </div>
+                        </div>
+                    </div>                  <!--#2-->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title row">
+                                <div class="col-md-3 col-sm-4">Апр. 2012 – Авг. 2015</div>
+                                <div class="col-md-9 col-sm-8">
+                                    <div class="row">
+                                        <b class="col-xs-12 text-justify text-primary">АО "Мотор Сич"</b>
+                                        <span class="col-xs-12 text-nowrap">г. Запорожье</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body row">
+                            <div class="col-md-3 col-sm-4 text-primary">Должность:</div>
+                            <div class="col-md-9 col-sm-8 col-xs-11 col-sm-offset-0 col-xs-offset-1">Инженер-конструктор</div>
+                            <div class="col-md-3 col-sm-4 text-primary">Обязанности:</div>
+                            <div class="col-md-9 col-sm-8 col-xs-11 col-sm-offset-0 col-xs-offset-1">
+                                Разработка приложений для инженерных расчетов.
+                            </div>
+                            <div class="col-md-9 col-md-3 col-sm-4 text-primary">Инструменты:</div>
+                            <div class="col-md-9 col-sm-8 col-xs-11 col-sm-offset-0 col-xs-offset-1">
+                                <span class="label label-default">C++</span>
+                                <span class="label label-default">MathCAD</span>
+                                <span class="label label-default">Qt</span>
+                            </div>
+                        </div>
+                    </div>                  <!--#3-->
                 </div>
-            </div>                  <!--#1-->
-            <div class="panel panel-default">
+            </section>                      <!--Experience-->
+            <section class="panel panel-primary">
                 <div class="panel-heading">
-                    <div class="panel-title row">
-                        <div class="col-md-3 col-sm-4">авг. 2015 г. – авг. 2016 г.</div>                                <!--years-->
-                        <div class="col-md-9 col-sm-8">
-                            <div class="row">
-                                <b class="col-xs-12 text-justify text-primary">
-                                    ООО "Engineering Center AIRBUS Russia"
-                                </b>                                                                                    <!--company-->
-                                <span class="col-xs-12 text-nowrap">г. Москва</span>                                    <!--location-->
+                    <h2 class="panel-title text-uppercase">Образование</h2>
+                </div>
+                <div class="panel-body panel-group">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title row">
+                                <div class="col-md-3 col-sm-4">Сен. 2016 – Дек. 2016</div>
+                                <div class="col-md-9 col-sm-8">
+                                    <div class="row">
+                                        <b class="col-xs-12 text-justify text-primary">Brain Academy</b>
+                                        <span class="col-xs-12 text-nowrap">г. Запорожье</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="panel-body row">
-                    <div  class="col-md-9 col-sm-8 col-md-offset-3 col-sm-offset-4">
-                        <div class="row">
-                            <div class="col-md-2 col-sm-3 col-xs-12 text-primary">Должность:</div>
-                            <div class="col-md-10 col-sm-9 col-xs-12">инженер-конструктор</div>                         <!--position-->
-                            <div class="col-md-2 col-sm-3 col-xs-12  text-primary">Проекты:</div>
-                            <div class="col-md-10 col-sm-9 col-xs-12">структура самолетов A320, A350</div>              <!--projects-->
+                        <div class="panel-body row">
+                            <div class="col-md-3 col-sm-4 text-primary">Специальность:</div>
+                            <div class="col-md-9 col-sm-8 col-xs-11 col-sm-offset-0 col-xs-offset-1">Frontend developer</div>
                         </div>
-                    </div>
+                    </div>                  <!--#1-->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title row">
+                                <div class="col-md-3 col-sm-4">Сен. 2006 – Фев. 2012</div>
+                                <div class="col-md-9 col-sm-8">
+                                    <div class="row">
+                                        <b class="col-xs-12 text-justify text-primary">
+                                            Национальный аэрокосмический университет им. Н.Е.Жуковского «ХАИ»
+                                        </b>
+                                        <span class="col-xs-12 text-nowrap">г. Харьков</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body row">
+                            <div class="col-md-3 col-sm-4 text-primary">Факультет:</div>
+                            <div class="col-md-9 col-sm-8 col-xs-11 col-sm-offset-0 col-xs-offset-1">Самолетостроительный</div>
+                            <div class="col-md-3 col-sm-4 text-primary">Степень:</div>
+                            <div class="col-md-9 col-sm-8 col-xs-11 col-sm-offset-0 col-xs-offset-1">Магистр</div>
+                        </div>
+                    </div>                  <!--#2-->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title row">
+                                <div class="col-md-3 col-sm-4">Сен. 2001 – Июнь 2005</div>
+                                <div class="col-md-9 col-sm-8">
+                                    <div class="row">
+                                        <b class="col-xs-12 text-justify text-primary">Бердичевский политехнический колледж</b>
+                                        <span class="col-xs-12 text-nowrap">г. Бердичев</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body row">
+                            <div class="col-md-3 col-sm-4 text-primary">
+                                Специальность:
+                            </div>
+                            <div class="col-md-9 col-sm-8 col-xs-11 col-sm-offset-0 col-xs-offset-1">
+                                Обработка металлов на станках и автоматических линиях
+                            </div>
+                        </div>
+                    </div>                  <!--#3-->
                 </div>
-            </div>                  <!--#2-->
-            <div class="panel panel-default">
+            </section>                      <!--Education-->
+            <section class="panel panel-primary">
                 <div class="panel-heading">
-                    <div class="panel-title row">
-                        <div class="col-md-3 col-sm-4">апр. 2012 г. – авг. 2015 г.</div>                                <!--years-->
-                        <div class="col-md-9 col-sm-8">
-                            <div class="row">
-                                <b class="col-xs-12 text-justify text-primary">АО "Мотор Сич"</b>                       <!--company-->
-                                <span class="col-xs-12 text-nowrap">г. Запорожье</span>                                 <!--location-->
+                    <h2 class="panel-title text-uppercase">Дополнительная информация</h2>
+                </div>
+                <div class="panel-body panel-group">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title row">
+                                <div class="col-md-3 col-sm-4">Знание языков</div>
                             </div>
+                        </div>
+                        <div class="panel-body row">
+                            <div class="col-md-3 col-xs-4 text-primary">Русский:</div>
+                            <div class="col-md-9 col-xs-8">свободное владение</div>
+                            <div class="col-md-3 col-xs-4 text-primary">Украинский:</div>
+                            <div class="col-md-9 col-xs-8">свободное владение</div>
+                            <div class="col-md-3 col-xs-4 text-primary">Английский:</div>
+                            <div class="col-md-9 col-xs-8">Pre-Intermediate 2 (A2)</div>
                         </div>
                     </div>
                 </div>
-                <div class="panel-body row">
-                    <div  class="col-md-9 col-sm-8 col-md-offset-3 col-sm-offset-4">
-                        <div class="row">
-                            <div class="col-md-2 col-sm-3 col-xs-12 text-primary">Должность:</div>
-                            <div class="col-md-10 col-sm-9 col-xs-12">инженер-конструктор</div>                         <!--position-->
-                            <div class="col-md-2 col-sm-3 col-xs-12  text-primary">Проекты:</div>
-                            <div class="col-md-10 col-sm-9 col-xs-12">ПО для инженерных расчетов</div>                  <!--projects-->
-                            <div class="col-md-2 col-sm-3 col-xs-12 text-primary">Инструменты:</div>
-                            <div class="col-md-10 col-sm-9 col-xs-12">
-                                <span class="label label-default">C++</span>                                            <!--tool-->
-                                <span class="label label-default">MathCAD</span>                                        <!--tool-->
-                                <span class="label label-default">Qt</span>                                             <!--tool-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>                  <!--#3-->
+            </section>                      <!--Info-->
         </div>
-    </section>                      <!--Experience-->
-    <section class="panel panel-primary">
-        <div class="panel-heading">
-            <h2 class="panel-title text-uppercase">Образование</h2>
-        </div>
-        <div class="panel-body panel-group">
-            <div class="panel panel-default">
+        <div role="tabpanel" class="tab-pane active" id="en">
+            <h1 class="text-center text-primary">Skomarovskiy Kirill</h1>
+            <section class="panel panel-primary">
                 <div class="panel-heading">
-                    <div class="panel-title row">
-                        <div class="col-md-3 col-sm-4">сен. 2016 г. – дек. 2016 г.</div>
-                        <div class="col-md-9 col-sm-8">
-                            <div class="row">
-                                <b class="col-xs-12 text-justify text-primary">Brain Academy</b>
-                                <span class="col-xs-12 text-nowrap">г. Запорожье</span>
+                    <h2 class="panel-title text-uppercase">Contacts</h2>
+                </div>
+                <div class="panel-body row">
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-8 col-sm-10 col-xs-6 col-sm-offset-2 col-xs-offset-3">
+                                <img src="image/IMG_3531.jpg"
+                                     class="img-responsive img-thumbnail"
+                                     alt="photo">
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="panel-body row">
-                    <div  class="col-md-9 col-sm-8 col-md-offset-3 col-sm-offset-4">
+                    <div class="col-sm-9">
                         <div class="row">
-                            <div class="col-md-2 col-sm-3 col-xs-12 text-primary">Специальность:</div>
-                            <div class="col-md-10 col-sm-9 col-xs-12">Frontend developer</div>
+                            <dl class="dl-horizontal lead col-xs-12">
+                                <dt>Phone:</dt>
+                                <dd>+380661197157</dd>
+                                <dt>Email:</dt>
+                                <dd>skomarovskiykirill@gmail.com</dd>
+                                <dt>Skype:</dt>
+                                <dd>live:skomarovkiykirill</dd>
+                            </dl>
+                            <p class="text-center">
+                                <a href="http://www.linkedin.com/in/kirill-skomarovskiy"
+                                   class="col-sm-2 col-xs-3 col-md-offset-1 col-sm-offset-2 col-xs-offset-3"
+                                   target="_blank">
+                                    <i class="fa fa-linkedin-square fa-3x"></i>
+                                </a>
+                                <a href="http://www.github.com/KirillSkomarovskiy"
+                                   class="col-sm-2 col-xs-3"
+                                   target="_blank">
+                                    <i class="fa fa-github-square fa-3x"></i>
+                                </a>
+                            </p>
                         </div>
                     </div>
                 </div>
-            </div>                  <!--#1-->
-            <div class="panel panel-default">
+            </section>                      <!--Contact-->
+            <section class="panel panel-primary">
                 <div class="panel-heading">
-                    <div class="panel-title row">
-                        <div class="col-md-3 col-sm-4">сен. 2006 г. – фев. 2012 г.</div>
-                        <div class="col-md-9 col-sm-8">
-                            <div class="row">
-                                <b class="col-xs-12 text-justify text-primary">Национальный аэрокосмический университет им.
-                                    Н.Е.Жуковского «ХАИ»</b>
-                                <span class="col-xs-12 text-nowrap">г. Харьков</span>
+                    <h2 class="panel-title text-uppercase">Objective</h2>
+                </div>
+                <div class="panel-body text-justify">
+                    Start a career as a frontend developer. Further development of professional skills.
+                </div>
+            </section>                      <!--Objective-->
+            <section class="panel panel-primary">
+                <div class="panel-heading">
+                    <h2 class="panel-title text-uppercase">Summary</h2>
+                </div>
+                <div class="panel-body text-justify">
+                    I'm а software developer with varied experience, from an engineer calculation software development
+                    using C++ to frontend development. I have basic knowledge of Java. Well-organized, efficient,
+                    quick learner, self-motivated.
+                </div>
+            </section>                      <!--Summary-->
+            <section class="panel panel-primary">
+                <div class="panel-heading">
+                    <h2 class="panel-title text-uppercase">Skills</h2>
+                </div>
+                <div class="panel-body">
+                    <span class="label label-danger">HTML/CSS</span>
+                    <span class="label label-default">Git</span>
+                    <span class="label label-warning">JavaScript</span>
+                    <span class="label label-warning">TypeScript</span>
+                    <span class="label label-warning">jQuery</span>
+                    <span class="label label-success">Bootstrap</span>
+                    <span class="label label-info">Gulp</span>
+                    <span class="label label-primary">LESS</span>
+                    <span class="label label-primary">SASS</span>
+                    <span class="label label-success">AngularJS 2</span>
+                    <span class="label label-warning">NodeJS</span>
+                </div>
+            </section>                      <!--Skills-->
+            <section class="panel panel-primary">
+                <div class="panel-heading">
+                    <h2 class="panel-title text-uppercase">Experience</h2>
+                </div>
+                <div class="panel-body panel-group">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title row">
+                                <div class="col-md-3 col-sm-4">Dec. 2016 – Jan. 2017</div>
+                                <div class="col-md-9 col-sm-8">
+                                    <div class="row">
+                                        <b class="col-xs-12 text-justify text-primary">2muchcoffee</b>
+                                        <span class="col-xs-12 text-nowrap">Zaporozhye, Ukraine</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="panel-body row">
-                    <div  class="col-md-9 col-sm-8 col-md-offset-3 col-sm-offset-4">
-                        <div class="row">
-                            <div class="col-md-2 col-sm-3 col-xs-12 text-primary">Факультет:</div>
-                            <div class="col-md-10 col-sm-9 col-xs-12">Самолетостроительный</div>
-                            <div class="col-md-2 col-sm-3 col-xs-12  text-primary">Специальность:</div>
-                            <div class="col-md-10 col-sm-9 col-xs-12">Конструкция самолетов и вертолетов</div>
-                            <div class="col-md-2 col-sm-3 col-xs-12  text-primary">Степень:</div>
-                            <div class="col-md-10 col-sm-9 col-xs-12">Магистр</div>
-                        </div>
-                    </div>
-                </div>
-            </div>                  <!--#2-->
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <div class="panel-title row">
-                        <div class="col-md-3 col-sm-4">сен. 2001 г. – июнь 2005 г.</div>
-                        <div class="col-md-9 col-sm-8">
-                            <div class="row">
-                                <b class="col-xs-12 text-justify text-primary">Бердичевский политехнический колледж</b>
-                                <span class="col-xs-12 text-nowrap">г. Бердичев</span>
+                        <div class="panel-body row">
+                            <div class="col-md-3 col-sm-4 text-primary">Position:</div>
+                            <div class="col-md-9 col-sm-8 col-xs-11 col-sm-offset-0 col-xs-offset-1">Trainee</div>
+                            <div class="col-md-3 col-sm-4 text-primary">Role description:</div>
+                            <div class="col-md-9 col-sm-8 col-xs-11 col-sm-offset-0 col-xs-offset-1">
+                                Studying AngularJS 2. Web application development using AngularJS 2.
+                            </div>
+                            <div class="col-md-9 col-md-3 col-sm-4 text-primary">Tools and technologies:</div>
+                            <div class="col-md-9 col-sm-8 col-xs-11 col-sm-offset-0 col-xs-offset-1">
+                                <span class="label label-default">phpstorm</span>                                       <!--tool-->
+                                <span class="label label-default">angularJS 2</span>                                    <!--tool-->
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="panel-body row">
-                    <div  class="col-md-9 col-sm-8 col-md-offset-3 col-sm-offset-4">
-                        <div class="row">
-                            <div class="col-md-2 col-sm-3 col-xs-12 text-primary">Специальность:</div>
-                            <div class="col-md-10 col-sm-9 col-xs-12">Обработка металлов на станках и автоматических
-                                линиях</div>
+                    </div>                  <!--#1-->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title row">
+                                <div class="col-md-3 col-sm-4">Aug. 2015 – Aug. 2016</div>
+                                <div class="col-md-9 col-sm-8">
+                                    <div class="row">
+                                        <b class="col-xs-12 text-justify text-primary">JSC "Engineering Center AIRBUS Russia"</b>
+                                        <span class="col-xs-12 text-nowrap">Moscow, Russian Federation</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                        <div class="panel-body row">
+                            <div class="col-md-3 col-sm-4 text-primary">Position:</div>
+                            <div class="col-md-9 col-sm-8 col-xs-11 col-sm-offset-0 col-xs-offset-1">Design engineer</div>
+                            <div class="col-md-3 col-sm-4 text-primary">Role description:</div>
+                            <div class="col-md-9 col-sm-8 col-xs-11 col-sm-offset-0 col-xs-offset-1">
+                                Design definition and development of the aircraft structure elements.
+                            </div>
+                        </div>
+                    </div>                  <!--#2-->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title row">
+                                <div class="col-md-3 col-sm-4">Apr. 2012 – Aug. 2015</div>
+                                <div class="col-md-9 col-sm-8">
+                                    <div class="row">
+                                        <b class="col-xs-12 text-justify text-primary">JSC "Motor Sich"</b>
+                                        <span class="col-xs-12 text-nowrap">Zaporozhye, Ukraine</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body row">
+                            <div class="col-md-3 col-sm-4 text-primary">Position:</div>
+                            <div class="col-md-9 col-sm-8 col-xs-11 col-sm-offset-0 col-xs-offset-1">Design engineer</div>
+                            <div class="col-md-3 col-sm-4 text-primary">Role description:</div>
+                            <div class="col-md-9 col-sm-8 col-xs-11 col-sm-offset-0 col-xs-offset-1">
+                                Engineer calculation software development.
+                            </div>
+                            <div class="col-md-9 col-md-3 col-sm-4 text-primary">Tools and technologies:</div>
+                            <div class="col-md-9 col-sm-8 col-xs-11 col-sm-offset-0 col-xs-offset-1">
+                                <span class="label label-default">C++</span>
+                                <span class="label label-default">MathCAD</span>
+                                <span class="label label-default">Qt</span>
+                            </div>
+                        </div>
+                    </div>                  <!--#3-->
                 </div>
-            </div>                  <!--#3-->
-        </div>
-    </section>                      <!--Education-->
-    <section class="panel panel-primary">
-        <div class="panel-heading">
-            <h2 class="panel-title text-uppercase">Дополнительная информация</h2>
-        </div>
-        <div class="panel-body panel-group">
-            <div class="panel panel-default">
+            </section>                      <!--Experience-->
+            <section class="panel panel-primary">
                 <div class="panel-heading">
-                    <div class="panel-title row">
-                        <div class="col-md-3 col-sm-4">Знание языков</div>
-                    </div>
+                    <h2 class="panel-title text-uppercase">Education</h2>
                 </div>
-                <div class="panel-body row">
-                    <div  class="col-md-9 col-sm-8 col-md-offset-3 col-sm-offset-4">
-                        <div class="row">
-                            <div class="col-md-2 col-sm-3 col-xs-12 text-primary">Русский:</div>
-                            <div class="col-md-10 col-sm-9 col-xs-12">свободное владение</div>
-                            <div class="col-md-2 col-sm-3 col-xs-12 text-primary">Украинский:</div>
-                            <div class="col-md-10 col-sm-9 col-xs-12">свободное владение</div>
-                            <div class="col-md-2 col-sm-3 col-xs-12 text-primary">Английский:</div>
-                            <div class="col-md-10 col-sm-9 col-xs-12">Pre-Intermediate 2 (A2)</div>
+                <div class="panel-body panel-group">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title row">
+                                <div class="col-md-3 col-sm-4">Sep. 2016 – Dec. 2016</div>
+                                <div class="col-md-9 col-sm-8">
+                                    <div class="row">
+                                        <b class="col-xs-12 text-justify text-primary">Brain Academy</b>
+                                        <span class="col-xs-12 text-nowrap">Zaporozhye, Ukraine</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body row">
+                            <div class="col-md-3 col-sm-4 text-primary">Specialty:</div>
+                            <div class="col-md-9 col-sm-8 col-xs-11 col-sm-offset-0 col-xs-offset-1">Frontend developer</div>
+                        </div>
+                    </div>                  <!--#1-->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title row">
+                                <div class="col-md-3 col-sm-4">Sep. 2006 – Feb. 2012</div>
+                                <div class="col-md-9 col-sm-8">
+                                    <div class="row">
+                                        <b class="col-xs-12 text-justify text-primary">
+                                            National aerospace university "Kharkov Aviation Institute"
+                                        </b>
+                                        <span class="col-xs-12 text-nowrap">Kharkov, Ukraine</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body row">
+                            <div class="col-md-3 col-sm-4 text-primary">Faculty:</div>
+                            <div class="col-md-9 col-sm-8 col-xs-11 col-sm-offset-0 col-xs-offset-1">Aircraft designing</div>
+                            <div class="col-md-3 col-sm-4 text-primary">Degree:</div>
+                            <div class="col-md-9 col-sm-8 col-xs-11 col-sm-offset-0 col-xs-offset-1">Master</div>
+                        </div>
+                    </div>                  <!--#2-->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title row">
+                                <div class="col-md-3 col-sm-4">Sep. 2001 – June 2005</div>
+                                <div class="col-md-9 col-sm-8">
+                                    <div class="row">
+                                        <b class="col-xs-12 text-justify text-primary">Berdichev Polytechnic college</b>
+                                        <span class="col-xs-12 text-nowrap">Berdichev, Ukraine</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body row">
+                            <div class="col-md-3 col-sm-4 text-primary">
+                                Specialty:
+                            </div>
+                            <div class="col-md-9 col-sm-8 col-xs-11 col-sm-offset-0 col-xs-offset-1">
+                                Material cutting systems with digital controlling
+                            </div>
+                        </div>
+                    </div>                  <!--#3-->
+                </div>
+            </section>                      <!--Education-->
+            <section class="panel panel-primary">
+                <div class="panel-heading">
+                    <h2 class="panel-title text-uppercase">Additional information</h2>
+                </div>
+                <div class="panel-body panel-group">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title row">
+                                <div class="col-md-3 col-sm-4">Languages</div>
+                            </div>
+                        </div>
+                        <div class="panel-body row">
+                            <div class="col-md-3 col-xs-4 text-primary">Russian:</div>
+                            <div class="col-md-9 col-xs-8">native</div>
+                            <div class="col-md-3 col-xs-4 text-primary">Ukrainian:</div>
+                            <div class="col-md-9 col-xs-8">native</div>
+                            <div class="col-md-3 col-xs-4 text-primary">English:</div>
+                            <div class="col-md-9 col-xs-8">Pre-Intermediate 2 (A2)</div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>                      <!--Info-->
         </div>
-    </section>                      <!--Info-->
+    </div>
+
 </main>
 </body>
 </html>
